@@ -44,7 +44,7 @@ console.log(typeof season)
 
 // 9) Оголосіть одну змінну і прийсвойте в неї будь яке значення типу Function.
 // * Bиведіть в консоль тип змінної виклристовуючи оператор "typeof" і функцію "console.log()"
-let greeting = function  () {1}
+let greeting = function  () {}
 console.log(typeof greeting)
 
 // 10) Оголосіть одну змінну і прийсвойте в неї будь яке значення типу Undefined.
