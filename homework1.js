@@ -59,4 +59,4 @@ console.log(typeof height)
 
 // 12) Оголосіть змінну user типу Object і опишіть своє: ім'я, фамілію, дату народження,
 // місце проживання, стать і можете добавити ще додаткові параметри використовуючи різні типи даних.
-const user = {name: 'Maryna', lastName: 'Brila', dateOfBirth: 'January 12th', location: 'Uzhhorod', sex: 'female'}
+const user = {name: 'Maryna', lastName: 'Brila', dateOfBirth: 'January 12th', location: 'Uzhhorod', sex: 'female', age: 25}
