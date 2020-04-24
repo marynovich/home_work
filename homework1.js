@@ -37,18 +37,11 @@ console.log(typeof food)
 
 // 8) Оголосіть одну змінну і прийсвойте в неї будь яке значення типу Array яке буде містити хоча б 3 значення.
 // * Bиведіть в консоль тип змінної виклристовуючи оператор "typeof" і функцію "console.log()"
-const maleNames = ['Anna', 'Michael', 'Ian', 'Jack'];
-maleNames.shift();
-console.log(typeof maleNames)
+
 
 // 9) Оголосіть одну змінну і прийсвойте в неї будь яке значення типу Function.
 // * Bиведіть в консоль тип змінної виклристовуючи оператор "typeof" і функцію "console.log()"
-let greeting = 'world'
-function showMessage () {
-    let message = 'Hello,' + greeting;
-    alert (message);
-} 
-showMessage ();
+let greeting = function  () {}
 console.log(typeof greeting)
 
 // 10) Оголосіть одну змінну і прийсвойте в неї будь яке значення типу Undefined.
