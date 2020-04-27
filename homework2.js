@@ -19,6 +19,13 @@ let price = 127;
 price = Null(price)
 console.log(typeof price)
 
+//коли виводила в консоль, то мені показувало помилку Uncaught ReferenceError: Null is not defined. Тому подумала над іншим способом: якщо Null виводиться в консолі як object,
+//то можна зробити перетворення на object
+
+let price = 127;
+price = Object(price)
+console.log(typeof price)
+
 // 4) Оголосіть змінну типу string і зробіть явне перетворення до типу number використовуючи “Number()”
 // * Bиведіть в консоль тип змінної використовуючи оператор "typeof" і функцію "console.log()"
 
@@ -37,8 +44,16 @@ console.log(typeof flower)
 // * Bиведіть в консоль тип змінної використовуючи оператор "typeof" і функцію "console.log()"
 
 let user = 'human'
-user = null(human)
+user = Null(human)
 console.log(typeof user)
+
+//коли виводила в консоль, то мені показувало помилку Uncaught ReferenceError: Null is not defined. Тому подумала над іншим способом: якщо Null виводиться в консолі як object,
+//то можна зробити перетворення на object
+
+let user = 'nothingtowrite'
+user = Object(nothingtowrite)
+console.log(typeof user)
+
 
 // 7) Оголосіть змінну типу boolean і зробіть явне перетворення до типу string використовуючи “String()”
 // * Bиведіть в консоль тип змінної використовуючи оператор "typeof" і функцію "console.log()"
@@ -61,24 +76,31 @@ let task = false;
 task = Null(task)
 console.log(typeof task)
 
+//коли виводила в консоль, то мені показувало помилку Uncaught ReferenceError: Null is not defined. Тому подумала над іншим способом: якщо Null виводиться в консолі як object,
+//то можна зробити перетворення на object
+
+let task = false;
+task = Object(task)
+console.log(typeof task)
+
 // 10) Оголосіть змінну типу null і зробіть явне перетворення до типу string використовуючи “String()”
 // * Bиведіть в консоль тип змінної використовуючи оператор "typeof" і функцію "console.log()"
 
-let x;
+let x = null;
 x = String (x)
 console.log(typeof x)
 
 // 11) Оголосіть змінну типу null і зробіть явне перетворення до типу number використовуючи “Number()”
 // * Bиведіть в консоль тип змінної використовуючи оператор "typeof" і функцію "console.log()"
 
-let z;
+let z = null;
 z = Number(z)
 console.log(typeof z)
 
 // 12) Оголосіть змінну типу null і зробіть явне перетворення до типу boolean використовуючи Boolean()”
 // * Bиведіть в консоль тип змінної використовуючи оператор "typeof" і функцію "console.log()"
 
-let cat;
+let cat = null;
 cat = Boolean(cat)
 console.log(typeof cat)
 
