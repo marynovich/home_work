@@ -170,7 +170,7 @@ console.log('name' in people)
 // * Виведіть результат в консоль за допомогою "console.log"
 
 let vegFood = ['tofu', 'humus', 'carrot']
-console.log('2' in vegFood)
+console.log(2 in vegFood)
 
 let vegFood = ['tofu', 'humus', 'carrot']
 console.log(5 in vegFood)
