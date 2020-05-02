@@ -72,7 +72,7 @@ if (bands == 'Queen') {
 } else if 
  (bands == 'Muse') {
   console.log (2)
-} else if (bands == 'Led Zeppelin'){
+} else (bands == 'Led Zeppelin'){
   console.log (3)
 }
 
@@ -161,7 +161,7 @@ if (education == 'History') {
   console.log(1);
 } else if (education == 'Math') {
   console.log(2);
-} else if (education == 'Biology') {
+} else (education == 'Biology') {
   console.log(3);
 }
 
